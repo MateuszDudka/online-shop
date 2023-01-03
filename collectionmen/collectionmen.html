@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przechowalnia | Arka</title>
+    <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="/mainpage/logo.css">
+    <link rel="stylesheet" href="/mainpage/navigation.css">
+    <link rel="stylesheet" href="/collectionmen/collectionmen.css">
+    <link rel="stylesheet" href="/mainpage/footer.css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/mainpage/mainpage.html">
+            <h1 class="arka">Arka</h1>
+            <img src="/image/logo/arka2.png" width="120px" class="imglogo">
+        </a>
+        </div>
+        </header>
+    
+        <nav class="main-nav">
+            <div class="container-nav">
+    
+                 <form class="form-search" method="get"> <!-- method="get" ponieważ wyszukiwanie polega na pobieraniu jakiś danych -->
+                    <input class="input-search" type="search" placeholder="Search...">
+                    <a href=""><button type="submit" class="button-search-icon"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button></a>
+                </form>
+                
+                <ul class="nav-ul-list">
+                    <li><a href="/mainpage/mainpage.html">Strona Główna</a></li>
+                    <li><a href="/collectionmen/collectionmen.html">Kolekcja męska</a></li>
+                    <li><a href="/aboutus/aboutus.html">O nas</a></li>
+                    <li><a href="/contact/contact.html">Kontakt</a></li>
+                </ul>
+    
+                <form class="login-container">
+                    <button type="submit" class="btn-log-in">Zaloguj</button>
+                    <button class="btn-log-in-icon"><i class="fa-solid fa-arrow-right-to-bracket fa-lg"></i></button>
+                </form>
+    
+                <div>
+                    <a href="/basket/basket.html" class="a-href-shopping-icon"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                    <div class="cartamount" id="cartamount">0</div>
+                </div>  
+            </div>
+        </nav>
+
+        <section class="collection-section">
+            <h2 class="collection-h2">Wybierz kategorie</h2>
+
+            <div class="allcollection-div" id="allcollection-div"></div> <!-- w diva "allcollection-div" wrzucony jest JavaScript któy odpowiada za dynamiczne(interaktywne) wyświetlanie elementów-->
+        </section>
+
+    <footer class="container-footer">
+        <div class="container-footer">
+            <div class="informacje-div">
+                <h3>Informacje</h3>
+                <a href="" class="a-informacje"><p>Regulamin</p></a>
+                <a href="" class="a-informacje"><p>Kontakt</p></a>
+                <a href="" class="a-informacje"><p>Dostawa i płatności</p></a>
+                <a href="" class="a-informacje"><p>Polityka prywatności</p></a>
+            </div>
+
+            <div class="contact-div">
+                <h3>Kontakt</h3>
+                <p><b>PRZYJDŹ DO NAS:</b> Lorem ipsum</p>
+                <p><b>TEL:</b> Lorem ipsum</p>
+                <p><b>EMAIL:</b> Lorem ipsum</p>
+                <a href=""><i class="iconsFacebook fa-brands fa-square-facebook fa-2x"></i></a>
+            </div>
+
+            <div class="mojekontofooter-div">
+                <h3>Moje konto</h3>
+                <a href="" class="a-informacje"><p>Moje zamówienia</p></a>
+                <a href="" class="a-informacje"><p>Koszyk</p></a>
+                <a href="" class="a-informacje"><p>Ustawienia konta</p></a>
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <div class="copywright-h3">
+        <h3 class="h3-copywright">© 2022 Arka | Created by Mateusz</h3>
+    </div>
+
+    <script  src="/javascript/generatescollection.js"></script>
+    <script  src="/javascript/basket.js"></script>
+</body>
+</html>
+
+<!-- dodać sekcje "Cała kolekcja męska" gdzie będzie wyświetlać się wszystko bez podziału na kategorie -->

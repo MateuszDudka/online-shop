@@ -1,0 +1,57 @@
+.oneclothes-section{
+    display: flex;   /* potrzebne aby zdjęcie i opis produktu mógł być obok siebie */
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.single-pro-image{
+    width: 25%;
+    margin-left: 13%;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between; /* aby była odległość między zdjęciami przy użyciu flex-basis */
+}
+.small-img-col{
+    flex-basis: 24%; /* odpowiada za odległość między małymi zdjęciami(możemy użyć bo wyżej jest display:flex) */
+    cursor: pointer;
+}
+.single-pro-details{
+    width: 50%; /* potrzebne aby po nałożeniu flex na cały section powróciło do początkowej wielkości(powiększenie opisu) */
+    padding: 50px;
+}
+.title-clothes{
+    font-size: 26px;
+}
+.price-clothes{
+    font-size: 23px;
+    padding: 25px 0px 5px 0px;
+}
+.size-clothes{
+    display: block; /* dzięki temu wszystko w select jest jedno pod drugim */
+    padding: 5px 10px;
+    margin-bottom: 12px;
+}
+.quantity-clothes-input{
+    width: 50px;
+    height: 28px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.add-basket-button{
+    background-color: #088178;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+.description-product-h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.description-product-span{
+    line-height: 25px;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+}

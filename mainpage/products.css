@@ -1,0 +1,54 @@
+.products-section{
+    margin: auto;
+    text-align: center
+}
+.bestseller-h2{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+.allbestseller-div{
+    display: flex;
+    align-items: stretch; /* potrzebne aby wysokość zdjęć była taka sama i można było wysokość i szerokość zdjęć ustawiać samemu */
+    justify-content: space-around; 
+    /* flex-wrap: wrap; */
+}
+.golf-img, .pikowanakurtka-img, .skorzanakurtka-img{
+    width: 100%;
+    height: 85%;
+    outline-offset: 10px;
+    outline-color: black;
+    outline-style: solid;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+.bestseller-div{
+    flex-basis: 24%;
+    min-width: 300px;
+}
+.underimage-div{
+    position: relative;
+    text-align: center;
+    bottom: 96px;
+    line-height: 30px;
+}
+.button{
+    padding: 7px 40px 7px 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: wheat;
+}
+.moreitems-btn{
+    padding: 12px 50px 12px 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: wheat;
+    position: relative;
+    bottom: 45px;
+    font-size: 15px;
+}

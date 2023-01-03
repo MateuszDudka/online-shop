@@ -1,0 +1,42 @@
+.container-footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    font-size: 17px;
+    background-color: gray;
+    padding: 5px;
+}
+.informacje-div{
+   position: relative;
+   right: 30%;
+   text-decoration: none;
+   font-size: 16px;
+}
+.mojekontofooter-div{
+    position: relative;
+    left: 30%;
+}
+.contact-div{
+    font-size: 16px;
+    text-decoration: none;
+}
+.copywright-h3{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.h3-copywright{
+    font-weight: normal;
+}
+.a-informacje{
+    text-decoration: none;
+    color: black;
+    right: 30%;
+}
+.iconsFacebook{
+    text-decoration: none;
+    color: blue;
+    margin-top: 4px;
+}

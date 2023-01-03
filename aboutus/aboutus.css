@@ -1,0 +1,18 @@
+.about-div{
+    margin-top: 20px;
+    margin-bottom: 145px;
+}
+.about-h2{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 35px;
+}
+.about-p{
+    display: block;
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+}

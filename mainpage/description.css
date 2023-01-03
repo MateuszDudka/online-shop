@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.description-h2{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.8rem;
+    padding-left: 20px;
+    color: black;
+    margin-bottom: 12px;
+}
+.description-img{
+    float: left;
+    margin-left: 130px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+.description-p{
+    font-size: 1.3rem;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    padding-top: 18px;
+    
+}
+.img-p{
+    margin-top: -15px;
+    margin-bottom: 75px;
+}

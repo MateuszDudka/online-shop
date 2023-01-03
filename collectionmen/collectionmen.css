@@ -1,0 +1,38 @@
+.collection-h2{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+.allcollection-div{
+    display: grid; /* żeby można było stosować grid-template-columns i gap */
+    grid-template-columns: repeat(3, 354px); /* określamy ile chcemy w jednej lini kolumn i o jakiej wielkości */
+    gap: 98px; /* odstęp między kolumnami  */
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1000px){
+    .allcollection-div{
+        grid-template-columns: repeat(2, 254px)
+    }
+}
+
+@media (max-width: 500px){
+    .allcollection-div{
+        grid-template-columns: repeat(1, 254px)
+    }
+}
+
+.item-div{
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 4px;
+}
+.details-div{
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+    font-size: 20px;
+    justify-content: center;
+}

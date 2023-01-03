@@ -1,0 +1,71 @@
+.contact-h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    margin-bottom: 55px;
+}
+.contactus-div{
+    /* width: 40%;
+    text-align: center;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    font-size: 18px;
+    position: absolute;  odpowiada za stylizowanie diva "contactus-div"*/ 
+    position: relative;
+    right: 8%;
+    text-align: center;
+    margin-top: 50px;
+}
+.icon-envelope{
+    color: gray
+
+}
+.facebook-a{
+    text-decoration: none;
+    color: black;
+}
+.writetous-div{
+    position: relative;
+    left: 8%;
+    text-align: center;
+    line-height: 30px;
+    outline-offset: 10px;
+    outline-color: black;
+    outline-style: solid;
+}
+.contact-div-form{
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.sendmessage-h2{
+    margin-bottom: 10px;
+}
+.send-button{
+    padding: 9px 25px 9px 25px;
+    font-size: 1.0rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: wheat;
+
+}
+.input{
+    /* width: 150%; */
+    /* padding: 6px 150px 6px 150px; */
+    height: 4vh;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+.contact-section{
+    margin-bottom: 120px;
+}
+.textarea{
+    resize: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 1.0rem;
+}
