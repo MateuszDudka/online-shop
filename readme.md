@@ -2,8 +2,8 @@
 
 Clothing online store
 
-# Frontend
+## Frontend
 
-HTML
-CSS
-JavaScrip
+- HTML
+- CSS
+- JavaScript
