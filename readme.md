@@ -6,4 +6,4 @@ Clothing online store
 
 HTML
 CSS
-JavaScript
+JavaScrip
